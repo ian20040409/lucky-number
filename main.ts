@@ -1,4 +1,5 @@
 let max = 0
+let random_num = 0
 input.onLogoEvent(TouchButtonEvent.LongPressed, function () {
     basic.showString("Reset")
     max = 0
@@ -9,7 +10,10 @@ input.onButtonPressed(Button.A, function () {
     basic.clearScreen()
 })
 input.onGesture(Gesture.Shake, function () {
-    basic.showNumber(randint(0, max))
+    random_num = randint(0, max)
+    for (let index = 0; index < 2; index++) {
+        basic.showNumber(random_num)
+    }
 })
 input.onButtonPressed(Button.B, function () {
     max = max + 10
