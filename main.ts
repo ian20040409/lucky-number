@@ -14,6 +14,7 @@ input.onGesture(Gesture.Shake, function () {
     for (let index = 0; index < 2; index++) {
         basic.showNumber(random_num)
     }
+    basic.clearScreen()
 })
 input.onButtonPressed(Button.B, function () {
     max = max + 10
