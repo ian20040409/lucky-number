@@ -14,6 +14,7 @@ input.onGesture(Gesture.Shake, function () {
     random_num = randint(0, max)
     basic.showNumber(random_num)
     basic.clearScreen()
+    TobbieII.shake_head(1)
 })
 input.onButtonPressed(Button.B, function () {
     max = max + 10

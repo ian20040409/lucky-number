@@ -4,13 +4,15 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "01.Explorer_Mb-V2": "pkg:01.Explorer_Mb-V2.json"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
-        "pxt.json"
+        "pxt.json",
+        "01.Explorer_Mb-V2.json"
     ],
     "testFiles": [
         "test.ts"
